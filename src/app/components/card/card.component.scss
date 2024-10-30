@@ -1,0 +1,15 @@
+@import "variables";
+
+.logo {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: $white;
+    height: 100svh;
+    padding: 3.2rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+}

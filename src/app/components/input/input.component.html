@@ -1,0 +1,11 @@
+<div class="input-box">
+    <app-label 
+        [text]="inputType === 'bill' ? 'Bill' : 'Number of People'"
+        [id]="inputType === 'bill' ? 'bill' : 'people'"
+    ></app-label>
+    
+    <div>
+        <img [src]="inputType === 'bill' ? 'icon-dollar.svg' : 'icon-person.svg'" alt="">
+        <input type="number" [id]="inputType === 'bill' ? 'bill' : 'person'" placeholder="0">
+    </div>
+</div>
